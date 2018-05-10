@@ -139,7 +139,7 @@ public class Server : MonoBehaviour
     // Server Read
     private void OnIncomingData(ServerClient c, string data)
     {
-        List<ServerClient> clientsCopy;
+
         Debug.Log("Server:" + data);
         string[] aData = data.Split('|');
 
@@ -152,10 +152,7 @@ public class Server : MonoBehaviour
                 break;
 
             case "CKLI":
-                //Possible memory leak
-                clientsCopy = new List<ServerClient>(clients);
-                clientsCopy.Remove(c);
-                Broadcast("SKLI|" + aData[1], clientsCopy);
+                Broadcast("SKLI|" + aData[1], clients);
                 break;
 
             case "CMOV":
