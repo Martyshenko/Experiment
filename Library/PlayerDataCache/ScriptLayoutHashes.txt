@@ -6,6 +6,7 @@ Assets/Scenes/Persistent.unity
 Assets/Scenes/Menu.unity
 Assets/Scenes/Game.unity
 SceneListEnd?
+f1b04b42258b96532fc34ed433d02c62 Assembly-CSharp.dll:.SimpleObjectPool
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 4b12dd839b2293f8457cd67cc3610b85 UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -153,5 +154,7 @@ bc68edb0af574bf79f9550ead8ebae5c UnityEngine.HoloLens.dll:UnityEngine.Audio.Audi
 c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingCollider
 45f3431f0103c41611e8d4eec3d439df UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.SpatialMappingRenderer
 ca85baa647772d40e44841a501c07fdc Assembly-CSharp.dll:.DialogueTrigger
-9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
 e3192d8484312133fd9db5a326da47bd Assembly-CSharp.dll:.DataController
+9de3a22eca9aefadba2d10d5987cefe3 UnityEngine.SpatialTracking.dll:UnityEngine.SpatialTracking.TrackedPoseDriver
+4e303a368a3ea2b9be00ff1051e8fa88 Assembly-CSharp.dll:.DecisionButton
+d0ebc1ac1e6072fa1285d842a3d7b618 Assembly-CSharp.dll:.GameController
